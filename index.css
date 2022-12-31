@@ -78,7 +78,7 @@ a:hover {
 .img-profil {
 
     position: relative;
-    background-image: url(/images/2189-removebg-preview.png);
+    background-image: url(./images/2189-removebg-preview.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -321,21 +321,21 @@ button img.animate-button {
 
 .futuriste {
 
-    background-image: url(/images/futuriste.jpg);
+    background-image: url(./images/futuriste.jpg);
 }
 
 .truck {
-    background-image: url(/images/Truck.jpeg);
+    background-image: url(./images/Truck.jpeg);
     color: black;
 }
 
 .design-studio {
-    background-image: url(/images/designStudio.jpeg);
+    background-image: url(./images/designStudio.jpeg);
     color: rgb(255, 255, 255);
 }
 
 .audio {
-    background-image: url(/images/Casque1.png);
+    background-image: url(./images/Casque1.png);
     color: black;
     background-color: white;
     background-repeat: no-repeat;
@@ -443,15 +443,15 @@ button img.animate-button {
 }
 
 .html1 {
-    background-image: url(/images/HTML5.png);
+    background-image: url(./images/HTML5.png);
 }
 
 .css3-1 {
-    background-image: url(/images/CSS3.png);
+    background-image: url(./images/CSS3.png);
 }
 
 .js-1 {
-    background-image: url(/images/JS.png);
+    background-image: url(./images/JS.png);
 }
 
 .text-jauge {
