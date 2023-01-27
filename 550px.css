@@ -1,0 +1,25 @@
+@media screen and (max-width: 550px) {
+
+    .cont{
+        
+    }
+    .picture-profil{
+        width: 320px;
+        height: 305px;
+    }
+    .picture img{
+
+        transform: translate(-8px,-10px);
+        width: 292px;
+        height: 250px;
+    }
+    .picture img:first-child{
+
+        transform: translate(-5px,41px);
+    }
+    .text-profil{
+
+        width: 310px;
+        padding:20px;
+    }
+}

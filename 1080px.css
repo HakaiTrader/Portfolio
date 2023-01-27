@@ -1,0 +1,46 @@
+@media screen and (max-width: 1080px) {
+
+    .cont{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 1150px;
+    }
+    .text-profil{
+
+        align-items: center;
+    }
+    .container-2{
+
+        flex-direction: column-reverse;
+    }
+    .menu{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu >*{
+
+        flex-direction: column;
+        width: 200px;
+        height: 110px;
+    }
+    .menu h2{
+
+        margin: 5px 0;
+    }
+    .onglet h2{
+        margin-bottom: 1000px;
+    }
+    #email-tel{
+
+        margin-left: 0;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .email-tel >*{
+
+        width: 180px;
+        height: 180px;
+    }
+}

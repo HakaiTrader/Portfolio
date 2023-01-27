@@ -1,0 +1,29 @@
+@media screen and (min-width: 1400px) {
+
+    .text-profil{
+
+        width: 580px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+    .menu{
+        align-items: center;
+    }
+    .menu >*{
+        display: flex;
+        width: 80%;
+    }
+    .onglet >h2{
+        margin: 0 auto;
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .onglet >h2{
+        margin: 0 auto;
+        font-size: 18.5px;
+    }
+    
+}
