@@ -443,7 +443,8 @@ img[alt='ciel'] {
 
 .email img,
 .tel img,
-.github img {
+.github img,
+.adress img {
     margin: 10px 0 20px 0;
 }
 
@@ -468,7 +469,8 @@ img[alt='ciel'] {
 }
 
 .tel,
-.email {
+.email,
+.adress {
 
     display: flex;
     flex-direction: column;
