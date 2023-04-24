@@ -339,7 +339,8 @@ img[alt='ciel'] {
 .truck:hover,
 .design-studio:hover,
 .audio:hover,
-.basic-fit:hover {
+.basic-fit:hover,
+.react-projet:hover {
     cursor: pointer;
     animation: float 1s infinite ease-in-out alternate;
     box-shadow: 1px 2px 10px -2px #1C73AD;
@@ -359,7 +360,8 @@ img[alt='ciel'] {
 .truck,
 .design-studio,
 .audio,
-.basic-fit {
+.basic-fit,
+.react-projet {
     display: flex;
     justify-content: center;
     height: 250px;
@@ -368,6 +370,7 @@ img[alt='ciel'] {
     background-size: cover;
     border-radius: 5px;
     color: white;
+    
 
 }
 
@@ -398,6 +401,28 @@ img[alt='ciel'] {
     background-size: contain;
     background-position: 50% 50%;
     position: relative;
+}
+.react-projet{
+    
+    background-image: url(./images/PictureHome.jpeg);
+    background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.architecture-title {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.react-projet img {
+    position: absolute;
+    top: 70px;
+    animation: rotate 8s infinite linear;
 }
 
 .audio h2 {
