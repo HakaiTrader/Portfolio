@@ -341,7 +341,8 @@ img[alt='ciel'] {
 .audio:hover,
 .basic-fit:hover,
 .react-projet:hover,
-.react-basic-fit:hover {
+.react-basic-fit:hover,
+.react-netflix:hover {
     cursor: pointer;
     animation: float 1s infinite ease-in-out alternate;
     box-shadow: 1px 2px 10px -2px #1C73AD;
@@ -363,7 +364,8 @@ img[alt='ciel'] {
 .audio,
 .basic-fit,
 .react-projet,
-.react-basic-fit {
+.react-basic-fit,
+.react-netflix {
     display: flex;
     justify-content: center;
     height: 250px;
@@ -406,7 +408,6 @@ img[alt='ciel'] {
     position: absolute;
     top: 50px;
     left: 44%;
-    animation: rotate 8s infinite linear;
 }
 .react-basic-fit p {
     position: absolute;
@@ -433,6 +434,18 @@ img[alt='ciel'] {
     color: rgb(255, 255, 255);
     position: relative;
 }
+.react-netflix{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./images/Netflix.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
 .architecture-title {
     display:flex;
     align-items: center;
@@ -444,7 +457,6 @@ img[alt='ciel'] {
 .react-projet img {
     position: absolute;
     top: 70px;
-    animation: rotate 8s infinite linear;
 }
 
 .audio h2 {
